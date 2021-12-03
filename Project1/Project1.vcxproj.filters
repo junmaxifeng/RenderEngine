@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Utils">
+      <UniqueIdentifier>{8ae27cff-74f9-488f-8c8f-7980d2f0ab91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Utils">
+      <UniqueIdentifier>{fec9286a-d4ca-4362-91c0-a2c40c401dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Math">
+      <UniqueIdentifier>{1dce28a7-53be-4615-8c7e-d4b4a21053cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Math">
+      <UniqueIdentifier>{ca527171-cbe5-42bd-832b-55f1d0c47c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Camera">
+      <UniqueIdentifier>{d03c12e6-9d91-401a-82fb-bb0f75179c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Camera">
+      <UniqueIdentifier>{324e2bfc-0737-4ae4-bc3c-87674209cb8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Shader">
+      <UniqueIdentifier>{618ea741-2d32-4edf-b5b0-03cf029e09a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shader">
+      <UniqueIdentifier>{4023ba1c-b0f2-4a59-8343-c781c48901ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\ShaderSources">
+      <UniqueIdentifier>{96f17d01-a115-4c04-aac8-656c6ae13c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\ShaderSources\Phong">
+      <UniqueIdentifier>{a8d8b899-af52-4e1a-9393-16238330cef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SceneManager">
+      <UniqueIdentifier>{3823f259-777d-49ed-8f1a-fefe21cb5bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SceneManager">
+      <UniqueIdentifier>{4eb140a4-c569-4b95-bfbd-0ea0055968d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Light">
+      <UniqueIdentifier>{e70b6cb2-ed3f-46e3-9b0b-8049a23421b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Light">
+      <UniqueIdentifier>{6e7ea227-b531-4439-b06d-6b36506ac3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Mesh">
+      <UniqueIdentifier>{3d7912ca-3156-4097-a91b-3a3859ead1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Mesh">
+      <UniqueIdentifier>{37c60b29-66fd-4739-8514-32b5bf24acc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Texture">
+      <UniqueIdentifier>{94132096-ac33-495a-bfbc-0f2767ab65c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Texture">
+      <UniqueIdentifier>{de82a9cf-8936-4765-a1e3-d3c7f1b0ea79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\ShaderSources\ShaderSources">
+      <UniqueIdentifier>{8bb23ffe-a5a2-4a42-ae08-a2ba6b819cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SkyBox">
+      <UniqueIdentifier>{8fa18631-5ac6-4187-8d7f-838a2706295a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SkyBox">
+      <UniqueIdentifier>{f1ca24b9-17d3-494d-b696-bdd4bc622582}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorBase.cpp">
+      <Filter>源文件\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4d.cpp">
+      <Filter>源文件\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>源文件\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>源文件\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <Filter>源文件\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>源文件\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="LightBase.cpp">
+      <Filter>源文件\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>源文件\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshBase.cpp">
+      <Filter>源文件\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>源文件\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>源文件\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>源文件\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderFactory.cpp">
+      <Filter>源文件\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>源文件\SkyBox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorBase.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4d.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>头文件\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>头文件\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>头文件\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="LightBase.h">
+      <Filter>头文件\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>头文件\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBase.h">
+      <Filter>头文件\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>头文件\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineClasses.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>头文件\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>头文件\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderFactory.h">
+      <Filter>头文件\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>头文件\SkyBox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShaderSources\Phong\frag.glsl">
+      <Filter>资源文件\ShaderSources\Phong</Filter>
+    </None>
+    <None Include="ShaderSources\Phong\vert.glsl">
+      <Filter>资源文件\ShaderSources\Phong</Filter>
+    </None>
+    <None Include="ShaderSources\Phong\geo.glsl">
+      <Filter>资源文件\ShaderSources\Phong</Filter>
+    </None>
+    <None Include="ShaderSources\Phong\tess_con.glsl">
+      <Filter>资源文件\ShaderSources\Phong</Filter>
+    </None>
+    <None Include="ShaderSources\Phong\tess_eval.glsl">
+      <Filter>资源文件\ShaderSources\Phong</Filter>
+    </None>
+    <None Include="ShaderSources\Phong\geo_normal.glsl">
+      <Filter>资源文件\ShaderSources\Phong</Filter>
+    </None>
+    <None Include="ShaderSources\Skybox\frag.glsl">
+      <Filter>资源文件\ShaderSources\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\Skybox\vert.glsl">
+      <Filter>资源文件\ShaderSources\ShaderSources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\skybox.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
